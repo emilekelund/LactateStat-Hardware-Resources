@@ -1,0 +1,11 @@
+### Module positions - created on 04/19/21 16:33:45 ###
+### Printed by Pcbnew version kicad (5.1.6)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                                           PosX       PosY       Rot  Side
+C1        0.1u             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   142.5000   -89.1250  270.0000  top
+C2        1u               C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   140.5000   -89.1250  270.0000  top
+LMP91000  LMP91000SD_NOPB  WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mm      145.9500   -87.0000    0.0000  top
+R1        10K              R_0603_1608Metric_Pad1.05x0.95mm_HandSolder   138.5000   -83.5000  270.0000  top
+R2        10K              R_0603_1608Metric_Pad1.05x0.95mm_HandSolder   140.5000   -83.5000  270.0000  top
+## End

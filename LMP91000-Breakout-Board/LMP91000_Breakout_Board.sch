@@ -1,0 +1,308 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LMP91000 Breakout Board"
+Date "2021-04-19"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "A breakout board for the LMP91000 from Texas Instruments"
+$EndDescr
+$Comp
+L LMP91000SD_NOPB:LMP91000SD_NOPB U1
+U 1 1 607D8BA6
+P 5700 3800
+F 0 "U1" H 5700 4867 50  0000 C CNN
+F 1 "LMP91000SD_NOPB" H 5700 4776 50  0000 C CNN
+F 2 "Package_SON:WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mm" H 5700 3800 50  0001 L BNN
+F 3 "" H 5700 3800 50  0001 L BNN
+F 4 "IPC-7351B" H 5700 3800 50  0001 L BNN "STANDARD"
+F 5 "Texas Instruments" H 5700 3800 50  0001 L BNN "MANUFACTURER"
+F 6 "I" H 5700 3800 50  0001 L BNN "PARTREV"
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 607D9E16
+P 7050 2500
+F 0 "C2" H 7165 2546 50  0000 L CNN
+F 1 "1u" H 7165 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7088 2350 50  0001 C CNN
+F 3 "~" H 7050 2500 50  0001 C CNN
+	1    7050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 607DC5A4
+P 6600 2500
+F 0 "C1" H 6715 2546 50  0000 L CNN
+F 1 "0.1u" H 6715 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6638 2350 50  0001 C CNN
+F 3 "~" H 6600 2500 50  0001 C CNN
+	1    6600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 607DCA6D
+P 4300 3600
+F 0 "R2" H 4370 3646 50  0000 L CNN
+F 1 "10K" H 4370 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 3600 50  0001 C CNN
+F 3 "~" H 4300 3600 50  0001 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 607DD170
+P 4000 3600
+F 0 "R1" H 4070 3646 50  0000 L CNN
+F 1 "10K" H 4070 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 3600 50  0001 C CNN
+F 3 "~" H 4000 3600 50  0001 C CNN
+	1    4000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR04
+U 1 1 607DE13A
+P 7050 2250
+F 0 "#PWR04" H 7050 2100 50  0001 C CNN
+F 1 "VDD" H 7065 2423 50  0000 C CNN
+F 2 "" H 7050 2250 50  0001 C CNN
+F 3 "" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR02
+U 1 1 607DE702
+P 4000 3350
+F 0 "#PWR02" H 4000 3200 50  0001 C CNN
+F 1 "VDD" H 4015 3523 50  0000 C CNN
+F 2 "" H 4000 3350 50  0001 C CNN
+F 3 "" H 4000 3350 50  0001 C CNN
+	1    4000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 607DEB23
+P 7050 2750
+F 0 "#PWR05" H 7050 2500 50  0001 C CNN
+F 1 "GND" H 7055 2577 50  0000 C CNN
+F 2 "" H 7050 2750 50  0001 C CNN
+F 3 "" H 7050 2750 50  0001 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 607DF6DB
+P 6600 4650
+F 0 "#PWR03" H 6600 4400 50  0001 C CNN
+F 1 "GND" H 6605 4477 50  0000 C CNN
+F 2 "" H 6600 4650 50  0001 C CNN
+F 3 "" H 6600 4650 50  0001 C CNN
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 607DFBE7
+P 3050 3800
+F 0 "J1" H 2968 3275 50  0000 C CNN
+F 1 "Conn_01x07" H 2968 3366 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3050 3800 50  0001 C CNN
+F 3 "~" H 3050 3800 50  0001 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 607E1831
+P 3050 4750
+F 0 "J2" H 3130 4792 50  0000 L CNN
+F 1 "Conn_01x05" H 3130 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 4750 50  0001 C CNN
+F 3 "~" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4600 6600 4600
+Wire Wire Line
+	6600 4600 6600 4650
+Wire Wire Line
+	5000 4200 4950 4200
+Wire Wire Line
+	5000 4100 4950 4100
+Text GLabel 4950 4200 0    50   Input ~ 0
+C1
+Text GLabel 4950 4100 0    50   Input ~ 0
+C2
+Wire Wire Line
+	4000 3450 4000 3400
+Wire Wire Line
+	4000 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 3450
+Connection ~ 4000 3400
+Wire Wire Line
+	4000 3400 4000 3350
+Wire Wire Line
+	4000 3750 4000 3900
+Wire Wire Line
+	4000 3900 5000 3900
+Wire Wire Line
+	5000 3800 4300 3800
+Wire Wire Line
+	4300 3800 4300 3750
+Wire Wire Line
+	4300 3800 3850 3800
+Connection ~ 4300 3800
+Wire Wire Line
+	4000 3900 3850 3900
+Connection ~ 4000 3900
+Text GLabel 3850 3800 0    50   Input ~ 0
+SCL
+Text GLabel 3850 3900 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	4950 3600 5000 3600
+Wire Wire Line
+	5000 3500 4950 3500
+Wire Wire Line
+	5000 3400 4950 3400
+Wire Wire Line
+	5000 3300 4950 3300
+Text GLabel 4950 3600 0    50   Input ~ 0
+CE
+Text GLabel 4950 3500 0    50   Input ~ 0
+RE
+Text GLabel 4950 3400 0    50   Input ~ 0
+WE
+Text GLabel 4950 3300 0    50   Input ~ 0
+MENB
+Wire Wire Line
+	6400 3300 6450 3300
+Text GLabel 6450 3300 2    50   Input ~ 0
+VOUT
+Wire Wire Line
+	6400 3100 6450 3100
+Text GLabel 6450 3100 2    50   Input ~ 0
+VREF
+Wire Wire Line
+	7050 2250 7050 2300
+Wire Wire Line
+	6600 2350 6600 2300
+Wire Wire Line
+	6600 2300 7050 2300
+Connection ~ 7050 2300
+Wire Wire Line
+	7050 2300 7050 2350
+Wire Wire Line
+	7050 2650 7050 2700
+Wire Wire Line
+	6600 2650 6600 2700
+Wire Wire Line
+	6600 2700 7050 2700
+Connection ~ 7050 2700
+Wire Wire Line
+	7050 2700 7050 2750
+Wire Wire Line
+	2850 3500 2800 3500
+Wire Wire Line
+	2850 3600 2800 3600
+Wire Wire Line
+	2850 3700 2800 3700
+Wire Wire Line
+	2850 3800 2800 3800
+Wire Wire Line
+	2850 3900 2800 3900
+Wire Wire Line
+	2850 4000 2800 4000
+Wire Wire Line
+	2850 4100 2800 4100
+Wire Wire Line
+	2850 4750 2800 4750
+Wire Wire Line
+	2850 4650 2800 4650
+Text GLabel 2800 4550 0    50   Input ~ 0
+MENB
+Text GLabel 2800 4650 0    50   BiDi ~ 0
+SCL
+Text GLabel 2800 4750 0    50   Input ~ 0
+SDA
+Text GLabel 2800 3500 0    50   Input ~ 0
+CE
+Text GLabel 2800 3600 0    50   Input ~ 0
+RE
+Text GLabel 2800 3700 0    50   Input ~ 0
+WE
+Text GLabel 2800 3800 0    50   Input ~ 0
+VREF
+Text GLabel 2800 3900 0    50   Input ~ 0
+C1
+Text GLabel 2800 4000 0    50   Input ~ 0
+C2
+Text GLabel 2800 4100 0    50   Input ~ 0
+VOUT
+Wire Wire Line
+	2850 4550 2800 4550
+Wire Wire Line
+	6600 4500 6600 4600
+Wire Wire Line
+	6400 4500 6600 4500
+Connection ~ 6600 4600
+Wire Wire Line
+	2250 4850 2250 4750
+Wire Wire Line
+	2250 4850 2850 4850
+$Comp
+L power:VDD #PWR01
+U 1 1 607F9B63
+P 2250 4750
+F 0 "#PWR01" H 2250 4600 50  0001 C CNN
+F 1 "VDD" H 2265 4923 50  0000 C CNN
+F 2 "" H 2250 4750 50  0001 C CNN
+F 3 "" H 2250 4750 50  0001 C CNN
+	1    2250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3000 6450 3000
+Wire Wire Line
+	6450 3000 6450 2300
+Wire Wire Line
+	6450 2300 6600 2300
+Connection ~ 6600 2300
+Wire Wire Line
+	2750 4950 2750 5050
+Wire Wire Line
+	2750 4950 2850 4950
+$Comp
+L power:GND #PWR?
+U 1 1 608004CA
+P 2750 5050
+F 0 "#PWR?" H 2750 4800 50  0001 C CNN
+F 1 "GND" H 2755 4877 50  0000 C CNN
+F 2 "" H 2750 5050 50  0001 C CNN
+F 3 "" H 2750 5050 50  0001 C CNN
+	1    2750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4400 6600 4500
+Wire Wire Line
+	6400 4400 6600 4400
+Connection ~ 6600 4500
+$EndSCHEMATC
